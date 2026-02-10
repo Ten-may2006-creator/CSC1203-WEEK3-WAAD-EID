@@ -9,7 +9,7 @@ else :
 age = int(input("Enter Your Age: "))
 if age < 13:
     print("Child")
-elif age >= 13 and age <= 19
+elif age >= 13 and age <= 19:
     print("Teen")
 elif age >= 20 and age <= 59:
     print("Adult")
@@ -103,3 +103,4 @@ match grade:
         print("Passed, but you need improvement")
     case "F":
         print("Failed. Better luck next time")
+
